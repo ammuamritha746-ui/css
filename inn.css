@@ -1,0 +1,20 @@
+h1{
+    color:rgb(175, 11, 16);
+    font-size: 32px;
+    text-align:center;
+}
+blockquote{
+    color:hsl(185°, 54%, 1%);
+    text-align:center;
+    font-size: 20px;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/09/27/94/25/360_F_927942540_BwvsR4YD6jftMa83x1cte33wDg7SY6bj.jpg");
+    background-size: cover;
+    
+}
+p{
+    text-align: center;
+    color:rgb(0,0,255);
+    font-size: 20px;
+}
