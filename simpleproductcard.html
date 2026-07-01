@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blog{
+            border:2px solid black;
+            padding:10px;
+            margin:auto;
+            height: 400px;
+            width: 300px;
+            background-color: pink;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            margin:auto;
+            display:block;
+        }
+        h3,p{
+            text-align: center;
+        }
+        button{
+            display: block;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            body{
+                font-size:14px;
+            
+            
+        }
+        .blog{
+            margin:auto;
+            text-align:center;
+        }
+    }
+    @media (orientation:landscape){
+        .blog{
+            background-color: lightblue;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="blog">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT163Rryvvt4sOj9hG262qYFtfIbgcYyGFdmwPAuqD91Q&s=10" height="300px" width="200px"><br>
+        <h3>Loaded Fries</h3>
+        <p>Price: $200</p>
+        <button>Buy Now</button>
+    </div>
+    
+</body>
+</html>
